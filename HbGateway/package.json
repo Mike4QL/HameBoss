@@ -1,0 +1,9 @@
+{
+  "name": "hb-gateway",
+  "version": "0.0.0",
+  "description": "HbGateway",
+  "main": "app.js",
+  "author": {
+    "name": "Mike"
+  }
+}
