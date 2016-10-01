@@ -12,4 +12,6 @@ The default configuration file is called, *HbGateway.config.json*, in the curren
 |-----------|-------------|
 | **topicRoot** | The root name of the MQTT topic to be monitored.  Messages in any topic beginning with this will be processsed. |
 |  **mqttUrl** | The URL of the MQTT broker.  |
+| **dbRoot** | The root ID used for the log documents saved to the database |
+
 
