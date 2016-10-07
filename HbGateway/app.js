@@ -1,4 +1,6 @@
-﻿var nano = require("nano")("http://localhost:5984");
+﻿var PouchDb = require("pouchdb");
+var db = new PouchDb("hameboss1");
 
-
-console.log('Hello world');
+db.info().then(function(info){
+    console.log(info);
+})
