@@ -1,0 +1,14 @@
+{
+  "name": "hbbroker",
+  "version": "1.0.0",
+  "description": "HameBoss Broker handle link between Nodes and Database using MQTT",
+  "main": "hbBroker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mike.robertson@4ql.co.uk",
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^2.3.1"
+  }
+}
