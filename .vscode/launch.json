@@ -1,6 +1,21 @@
 {
     "version": "0.2.0",
     "configurations": [
+         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Ctr Website",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceRoot}/HbController",
+            "userDataDir": "${workspaceRoot}/.vscode/chrome"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Ctr Server",
+            "program": "${workspaceRoot}/HbController/bin/www",
+            "cwd": "${workspaceRoot}/HbController"
+        },
         {
             "name": "Gateway",
             "type": "node",
@@ -41,6 +56,12 @@
             "port": 5858,
             "sourceMaps": false,
             "outDir": null
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Controller",
+            "configurations": ["Ctr Server", "Ctr Website"]
         }
     ]
 }

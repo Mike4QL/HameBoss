@@ -244,4 +244,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-HbGateway/hameboss1/*
+HbGateway/hameboss1/
+.vscode/chrome/
