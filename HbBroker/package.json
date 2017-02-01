@@ -9,6 +9,7 @@
   "author": "mike.robertson@4ql.co.uk",
   "license": "MIT",
   "dependencies": {
-    "mqtt": "^2.3.1"
+    "mqtt": "^2.3.1",
+    "pouchdb": "^6.1.1"
   }
 }
