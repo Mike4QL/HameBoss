@@ -8,7 +8,7 @@ var settings = {
     dbPrefix: 'mqtt/hb/',
     mqttBrokerUrl: 'mqtt://localhost/',
     dbUrl: 'http://admin:brilt@localhost:5984/',
-    dbName: 'HameBoss'
+    dbName: 'hameboss'
 }
 if (fs.existsSync('./hbBroker.json')) {
     let options = JSON.parse(fs.readFileSync('./hbBroker.json'));
